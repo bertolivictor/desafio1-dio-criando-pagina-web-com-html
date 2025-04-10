@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Página - Módulo I - Primeiros Passos com HTML</title>
+    </head>
+    <body>
+    <h1 id="inicio">Módulo 1 - Primeiros Passos com HTML</h1>
+    <hr/>
+    <h2>Índice</h2>
+        <ul>    
+            <li><a href="#historia">História dos computadores</a></li>
+            <li><a href="#clients">O que são Clients?</a></li>
+            <li><a href="#server">O que são Servers?</a></li>
+            <li><a href="#estrutura">Como é uma estrutura básica de um HTML?</a></li>
+            <li><a href="#entendendo">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
+            <li><a href="#referencias">Links de referências</a></li>
+        </ul>
+    <h2 id="historia">História dos computadores</h2>
+        <small><a href="#inicio">(Voltar)</a></small>
+        <p>A história dos computadores começou na década de <i>1940</i> com máquinas como o <strong>Colossus</strong> (1943, usado para decifrar códigos na Segunda Guerra Mundial) e o <strong>ENIAC</strong> (1946), que usavam <u>válvulas eletrônicas e eram enormes</u>.</p>
+        <p>Na década de <i>1950</i>, os <u>transistores</u> substituíram as válvulas, tornando os computadores <u>menores</u> e <u>mais eficientes</u>.</p> 
+        <p>Nos anos de <i>1960</i>, os <u>circuitos integrados</u> permitiram maior poder de <u>processamento</u>.</p>
+        <p>A década de <i>1970</i> trouxe os <u>microprocessadores</u> (Intel 4004) e os primeiros PCs, como o <strong>Altair 8800</strong> (1975).</p>
+        <p>Na década de <i>1980</i>, surgiram o <strong>IBM PC</strong> (1981) e o <strong>Macintosh</strong> (1984), popularizando os <u>computadores pessoais</u>.</p>
+        <p>A partir dos <i>anos 1990</i>, a <u>internet e avanços em hardware</u> (processadores multicore, memória RAM) <u>e software</u> (Windows, Linux) revolucionaram a computação, levando aos dispositivos modernos, como <u>laptops e smartphones</u>.</p>
+        Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)
+    <h2 id="clients">O que são Clients?</h2>
+        <small><a href="#inicio">(Voltar)</a></small>
+        <p>Clients (ou clientes) são dispositivos ou programas que solicitam e recebem serviços, dados ou recursos de um <u>servidor</u> na internet. Eles funcionam como a interface do usuário para acessar informações remotas.</p>
+        <h3>Exemplos comuns de clients:</h3>
+            <ul>
+                <li><strong>Navegadores (Browsers):</strong> Chrome, Firefox, Safari (acessam páginas da web de servidores).</li>
+                <li><strong>Aplicativos de e-mail:</strong> Outlook, Gmail (baixam mensagens de servidores de e-mail).</li>
+                <li><strong>Streaming:</strong> Netflix, Spotify (recebem vídeos/músicas de servidores remotos).</li>
+                <li><strong>Jogos online:</strong> Fortnite, LoL (conectam-se a servidores para multiplayer).</li>
+            </ul>
+        <h3>Como funcionam?</h3>
+            <p>O client envia uma <u>requisição</u> (ex.: carregar um site), e o servidor processa e responde com os dados. Essa comunicação segue protocolos como <u>HTTP/HTTPS, FTP, ou TCP/IP</u>.</p>
+    <h2 id="server">O que são Servers?</h2>
+        <small><a href="#inicio">(Voltar)</a></small>
+        <p>Servers (ou servidores) são computadores ou sistemas que fornecem serviços, dados ou recursos para os <u>clients</u> (clientes) na internet. Eles armazenam, processam e entregam informações sempre que solicitados, funcionando como a "infraestrutura" por trás de aplicações online.</p>
+        <h3>Exemplos comuns de servidores:</h3>
+            <ul>
+                <li><strong>Web servers (ex.: Apache, Nginx):</strong> Hospedam sites e entregam páginas aos navegadores.</li>
+                <li><strong>Email servers (ex.: SMTP, IMAP):</strong> Gerenciam envio/recebimento de e-mails.</li>
+                <li><strong>Game servers:</strong> Processam ações em jogos online (como multiplayer).</li>
+                <li><strong>Cloud servers (AWS, Google Cloud):</strong> Armazenam arquivos e rodam aplicações em nuvem.</li>
+                <li><strong>Database servers (MySQL, PostgreSQL):</strong> Armazenam e gerenciam bancos de dados.</li>
+            </ul>
+        <h3>Como funcionam?</h3>
+            <ol>
+                <li>O client (ex.: seu navegador) faz uma requisição (ex.: abrir um site).</li>
+                <li>O servidor recebe, processa e responde com os dados (ex.: HTML, vídeos, arquivos).</li>
+                <li>A comunicação usa protocolos como HTTP/HTTPS, FTP, TCP/IP, etc.</li>
+            </ol>
+        <h3>Tipos de servidores:</h3>
+            <ul>
+                <li><strong>Físicos:</strong> Máquinas dedicadas (ex.: data centers da Google).</li>
+                <li><strong>Virtuais:</strong> Partes de um servidor físico dividido (VPS, cloud).</li>
+                <li><strong>Em nuvem:</strong> Serviços escaláveis (ex.: AWS, Azure).</li>
+            </ul>
+    <h2 id="estrutura">Como é uma estrutura básica de um HTML?</h2>
+        <small><a href="#inicio">(Voltar)</a></small>
+        <p>A estrutura básica de um documento HTML (HyperText Markup Language) segue um padrão simples, composto por tags que definem a organização do conteúdo. </p>
+    <h2 id="entendendo">Entendendo a diferença entre <u>listas ordenadas</u> e <u>não ordenadas</u>.</h2>
+        <small><a href="#inicio">(Voltar)</a></small>
+        <p>Em HTML, as listas ordenadas e desordenadas são usadas para agrupar itens, mas com diferenças visuais e semânticas, por exemplo:</p>
+            <h3>Lista Desordenada</h3>
+                <ul>    
+                    <li>Itens sem ordem numérica.</li>
+                    <li>Usa marcadores (bolinhas, quadrados, etc.).</li>
+                    <li>Exemplo: Lista de compras.</li>
+                </ul>
+            <h3>Lista Ordenada</h3>
+                <ul>
+                    <li>Itens em sequência (números, letras).</li>
+                    <li>Usa contagem automática (1, 2, 3... ou A, B, C...).</li>
+                    <li>Exemplo: Passos de uma receita.</li>
+                </ul>
+    <h2 id="referencias">Links de referências</h2>
+        <small><a href="#inicio">(Voltar)</a></small>
+        <ul>
+            <li><a href="https://www.dio.me" target="_blank">http://dio.me</a></li>
+            <li><a href="http://w3c.org" target="_blank">http://w3c.org</a></li>
+        </ul>
+    </body>
+</html>
